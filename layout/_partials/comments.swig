@@ -24,6 +24,16 @@
         </noscript>
       </div>
     </div>
+    
+  {% elseif theme.isso.enable %}
+    <div class="comments" id="comments">
+      <section id="isso-thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </section>
+    </div>
 
   {% elseif theme.livere_uid %}
     <div class="comments" id="comments">
